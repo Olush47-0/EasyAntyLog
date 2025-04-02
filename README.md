@@ -1,44 +1,36 @@
-🔒 EasyAntyLog – Custom PvP Combat Logger Plugin for Paper/Spigot 1.20–1.21+
-AntyLogout is a fully custom-built plugin designed for PvP, Survival, and Faction servers. Its main goal is to prevent players from escaping combat unfairly, whether by teleporting, logging out, or abusing mechanics to avoid dying. It’s lightweight, fast, and fully compatible with the latest PaperMC versions.
+🔒 **EasyAntyLog – Niestandardowy plugin AntyLogout PvP dla Paper/Spigot 1.20–1.21+**  
+AntyLogout to w pełni autorski plugin zaprojektowany z myślą o serwerach PvP, Survival i Factions.  
+Jego głównym celem jest uniemożliwienie graczom nieuczciwego unikania walki, np. przez teleportację, wylogowanie się lub wykorzystywanie mechanik do uniknięcia śmierci.  
+Jest lekki, szybki i w pełni kompatybilny z najnowszymi wersjami PaperMC.
 
-⚔️ Key Features:
-✅ Combat Tag System
-When a player attacks or is attacked, they are marked as "in combat" for 15 seconds. During this time:
+---
 
-❌ They cannot teleport (/spawn, /home, /tpa, /tpaccept, /casino, etc.)
+⚔️ **Główne funkcje:**
 
-❌ Logging out instantly kills them
+✅ **System Oznaczania Walki**  
+Gdy gracz zaatakuje lub zostanie zaatakowany, zostaje oznaczony jako „w walce” na 15 sekund.  
+W tym czasie:  
+❌ Nie może się teleportować (np. `/spawn`, `/home`, `/tpa`, `/tpaccept`, `/casino` itd.)  
+❌ Wylogowanie się skutkuje natychmiastową śmiercią  
+✅ Nadal może stawiać i niszczyć bloki, poruszać się i grać normalnie  
+⏳ Na ekranie pojawia się pasek bossbara pokazujący odliczanie do końca walki
 
-✅ They can still place and break blocks, move around, and play normally
+🏹 **Pełne Wykrywanie Obrażeń**  
+Plugin śledzi nie tylko ataki wręcz, ale także dystansowe i specjalne:  
+- Łuk 🎯  
+- Kusza 🏹  
+- Trójząb 🧜  
+- Broń niestandardowa (np. buzdygan, młot bojowy) 🔨  
+- Wybuch wiatru 🌪️ (np. z lotu na Elytrze)
 
-⏳ A bossbar appears on-screen showing a countdown until combat ends
+🧠 **Inteligentne zachowanie**  
+- Po śmierci gracza znika bossbar i oznaczenie walki  
+- Jeśli gracz wyloguje się w czasie walki — ginie natychmiast, a informacja trafia do konsoli  
+- Po 15 sekundach bez walki, wszystkie ograniczenia są zdejmowane
 
-🏹 Full Damage Detection:
-The plugin tracks not only melee hits but also ranged and special attacks:
+🧩 **Lekki, szybki i rozbudowywalny**  
+Zbudowany wyłącznie w oparciu o Bukkit/Paper API dla maksymalnej wydajności i kompatybilności.  
+Żadnych zbędnych zależności. Plugin jest łatwy do rozbudowy i dostosowania do potrzeb Twojego serwera.
 
-Bow 🎯
-
-Crossbow 🏹
-
-Trident 🧜
-
-Custom weapons like a mace or warhammer 🔨
-
-Wind Charge 🌪️ (e.g. from Elytra gliding)
-
-All of these trigger combat mode and apply restrictions as intended.
-
-🧠 Smart Behavior:
-Upon death, the combat tag and bossbar are removed immediately
-
-If a player logs out during combat, they die instantly and it’s logged in console
-
-Once the 15 seconds pass without further combat, all restrictions are lifted
-
-🧩 Lightweight, Fast, and Expandable:
-Built purely on Bukkit/Paper API for performance and compatibility. No unnecessary dependencies. The plugin is easy to extend and customize for your server’s needs.
-
-💡 Got Ideas?
-Have a cool feature in mind? Want to expand the plugin or suggest improvements? We’d love to hear from you!
-AntyLogout is under active development, and we’re always open to community input ✨
-
+📜 **Licencja**  
+Plugin jest dostępny na licencji **Apache-2.0** – możesz go dowolnie używać, modyfikować i udostępniać, zgodnie z jej warunkami.
