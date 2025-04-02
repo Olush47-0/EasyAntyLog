@@ -10,7 +10,7 @@ Jest lekki, szybki i w pełni kompatybilny z najnowszymi wersjami PaperMC.
 ✅ **System Oznaczania Walki**  
 Gdy gracz zaatakuje lub zostanie zaatakowany, zostaje oznaczony jako „w walce” na 15 sekund.  
 W tym czasie:  
-❌ Nie może się teleportować (np. `/spawn`, `/home`, `/tpa`, `/tpaccept`, `/casino` itd.)  
+❌ Nie może się teleportować (np. `/spawn`, `/home`, `/tpa`, `/tpaccept` itd.)  
 ❌ Wylogowanie się skutkuje natychmiastową śmiercią  
 ✅ Nadal może stawiać i niszczyć bloki, poruszać się i grać normalnie  
 ⏳ Na ekranie pojawia się pasek bossbara pokazujący odliczanie do końca walki
